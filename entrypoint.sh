@@ -10,7 +10,6 @@ create_pid_dir() {
 create_cache_dir() {
   mkdir -p ${APT_CACHER_NG_CACHE_DIR}
   chmod -R 0755 ${APT_CACHER_NG_CACHE_DIR}
-  chown -R ${APT_CACHER_NG_USER}:root ${APT_CACHER_NG_CACHE_DIR}
 }
 
 create_log_dir() {
